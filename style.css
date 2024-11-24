@@ -1,0 +1,250 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1faee;
+    text-align: center;
+}
+
+
+/* تنسيق الهيدر */
+header {
+    background-color: #1d3557;
+    color: #f1faee;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #f1faee;
+}
+
+
+    
+
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #f1faee;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h2 {
+  color: #a8dadc;
+}
+
+.hero p {
+  
+  margin: 5px 0 0;
+    font-size: 16px;
+
+}
+.signup {
+  text-align: center;
+  padding: 50px;
+}
+
+.signup form {
+  display: inline-block;
+  text-align: center;
+  background-color: #457b9d;
+  padding: 20px;
+  border-radius: 8px;
+  color: #f1faee;
+}
+
+.signup form label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: center;
+}
+
+.signup form input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+.signup form button {
+  background-color: #1d3557;
+  color: #f1faee;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup form button:hover {
+  background-color: #a8dadc;
+  color: #1d3557;
+}
+.login {
+  text-align: center;
+  padding: 50px;
+}
+
+.login form {
+  display: inline-block;
+  text-align: center;
+  background-color: #457b9d;
+  padding: 20px;
+  border-radius: 8px;
+  color: #f1faee;
+}
+
+.login form label {
+  display: block;
+  margin: 10px 0 5px;
+  
+}
+
+.login form input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 15px;
+  
+  border-radius: 4px;
+}
+
+.login form button {
+  background-color: #1d3557;
+  color: #f1faee;
+
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login form button:hover {
+  background-color: #a8dadc;
+  
+  color: #1d3557;
+}
+
+.login p {
+  margin-top: 15px;
+  color: #f1faee;
+}
+
+.login p a {
+  color: #a8dadc;
+  text-decoration: none;
+}
+
+.login p a:hover {
+  text-decoration: underline;
+}
+/* تنسيق النصوص */
+.login p, .signup p {
+    margin-top: 15px;
+    color: #f1faee;
+    font-size: 14px;
+}
+
+.login p a, .signup p a {
+    color: #a8dadc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login p a:hover, .signup p a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* تنسيق قسم الصور */
+.image-slider {
+    margin: 20px auto;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slider-container img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-right: 5px solid #f1faee;
+}
+
+/* التحكم في التنقل */
+.image-slider:hover .slider-container {
+    transform: translateX(-100%);
+}
+.slider-container {
+    display: flex;
+    transition: transform 1s ease-in-out; /* حركة انتقال سلسة */
+    width: 100%;
+}
+
+.slider-container img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%; /* تحديد عرض النموذج */
+  margin: 0 auto; /* وضعه في الوسط */
+}
+
+form label, form input, form textarea, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #1d3557;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  background-color:  #1d3557;
+  color: white;
+  padding: 10px;
+}
